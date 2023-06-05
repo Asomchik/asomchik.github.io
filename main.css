@@ -1,0 +1,59 @@
+body {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 10px;
+    padding: 10px;
+}
+
+a {
+color: #000;
+font-weight: bold;
+}
+
+a:hover {
+color: #aaa;
+}
+
+a:focus {
+outline:none;
+}
+
+a:focus-visible {
+outline: 3px solid #333;
+}
+
+.underline {
+	border-bottom: 1px solid #aaa;
+	margin-right: 5px;
+    margin-left: 5px;
+}
+
+.container
+{
+    max-width: 1200px;
+    min-width: 400px;
+    margin: 0 auto;
+    border: 2px solid #aaa;
+}
+
+h1 {
+	padding: 10px;
+}
+
+h2 {
+    margin: 0;
+}
+
+.menu {
+text-align: right;
+}
+
+.menu-item {
+	display: inline-block;
+	margin: 10px;
+}
+
+section {
+    padding: 30px;
+}
